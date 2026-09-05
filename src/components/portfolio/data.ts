@@ -1,10 +1,10 @@
 import fixlyImg from "@/assets/fixly.jpg";
 import novapayImg from "@/assets/novapay.jpg";
-import aliPhoto from "@/assets/ali.jpg.asset.json";
+import aliPhoto from "@/assets/ali.jpg";
 
 export const PROFILE = {
   name: "Ali Taimoor",
-  photo: aliPhoto.url as string | null,
+ photo: aliPhoto,
   roles: ["AI/ML Engineer", "Full-Stack Developer", "Building Intelligent Products"],
   statement: "I design and ship AI-powered products end-to-end — from model to interface.",
   email: "taimoorali659@gmail.com",
